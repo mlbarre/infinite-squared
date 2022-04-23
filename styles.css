@@ -1,2 +1,22 @@
-/* styling here */
-/* look how pretty */
+*, 
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #333;
+}
+
+.side {
+    position: absolute;
+}
+
+.side.left {
+    left: 1vw;
+}
+
+.side.right {
+    right: 1vw;
+}
